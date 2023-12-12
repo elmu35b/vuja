@@ -6,6 +6,7 @@
     http://www.templatemo.com/preview/vujade_430_robotic
     -->
     <title>VUJADE</title>
+    <link rel="icon" type="image/x-icon" href="{{asset('images/favicon.ico')}}">
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta charset="utf-8">
