@@ -5,7 +5,7 @@
     Robotic Template
     http://www.templatemo.com/preview/vujade_430_robotic
     -->
-    <title>Robotic - Free Responsive Template</title>
+    <title>VUJADE</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta charset="utf-8">
