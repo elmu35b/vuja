@@ -17,23 +17,19 @@
     <link rel="stylesheet" href="{{ asset('css/templatemo_misc.css') }}">
     <link rel="stylesheet" href="{{ asset('css/templatemo_style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/alerts.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/partners.css') }}">
 
     <!-- JavaScripts -->
-    <script src="{{asset("js/jquery-1.11.1.min.js")}}"></script> <!-- lightbox -->
-    <script src="{{asset("js/templatemo_custom.js")}}"></script> <!-- lightbox -->
-    <script src="{{asset("js/jquery.lightbox.js")}}"></script>
-    <script src="{{asset("js/bootstrap-collapse.js")}}"></script>
-    <script src="{{asset('js/partners.js')}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-
+    <script src="js/jquery-1.11.1.min.js"></script> <!-- lightbox -->
+    <script src="js/templatemo_custom.js"></script> <!-- lightbox -->
+    <script src="js/jquery.lightbox.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
     <!-- JavaScripts -->
 </head>
 
 <body>
-    {{-- <div id="vujade_home" class="vujade_headerimg"><img src="{{ asset('images/xo.jpg') }}" alt=" header"> --}}
-    </div>
-    {{-- <div class="sr-only"><img src="{{ asset('images/xo.jpg') }}" style="width: 500px;height: 400px" alt="header" ></div> --}}
+    <div id="vujade_home" class="vujade_headerimg"><img src="{{asset('images/3dp.png')}}"
+            alt="templatemo header"></div>
+    <div class="vujade_headerimg_cover"><img src="{{asset('images/3dp.png')}}" alt="templatemo header"></div>
     <div class="vujade_headerwrapper">
         <div class="vujade_menu">
             <nav class="navbar navbar-default" role="navigation">
@@ -64,8 +60,8 @@
             <div class="vujade_socialmedia">
                 <div class="vujade_social"><a href="#"><img src="images/facebook.png"
                             alt="templatemo facebook"></a></div>
-                <div class="vujade_social"><a href="#"><img src="images/twitter.png" alt="templatemo twitter"></a>
-                </div>
+                <div class="vujade_social"><a href="#"><img src="images/twitter.png"
+                            alt="templatemo twitter"></a></div>
                 <div class="vujade_social"><a href="#"><img src="images/googleplus.png"
                             alt="templatemo googleplus"></a></div>
             </div>
@@ -78,7 +74,7 @@
                     {{-- <div class="vujade_title"><span>RO</span>BOTIC</div>
                     <div class="vujade_subtitle">New Urban City</div> --}}
 
-                    <img src="{{ asset('images/vuja_x.png') }}" style="height: 20;width:20;" alt="" />
+                    <img src="{{asset('images/vuja_x.png')}}" style="height: 20;width:20;" alt=""/>
                     <div class="vujade_title">
                     </div>
                     {{-- <div class="vujade_subtitle">New Urban City</div> --}}
@@ -101,10 +97,10 @@
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6">
-                    <div class="vujade_separater">
+                    {{-- <div class="vujade_separater">
                         <span class="page">1</span>
-                    </div>
-                    {{-- <br><br> --}}
+                    </div> --}}
+                    <br><br>
                 </div>
             </div>
             <!-- home end -->
@@ -114,7 +110,7 @@
             <div class="row">
                 <div class="col-md-6 vujade_service">
                     <div class="gallery-item">
-                        <img src="{{asset('images/xo.jpg')}}" alt="gallery 1">
+                        <img src="images/service/1.jpg" alt="gallery 1">
                         {{-- <div class="vujade_service_frame">
                             <img src="images/templatemo_serviceimg.png" alt="vujade_frame">
                         </div> --}}
@@ -137,18 +133,17 @@
             </div>
             <div class="row vujade_ordering">
                 <div class="col-md-6 vujade_service one">
-                    <div class="vujade_service_title"> {{ __('fablab')['l'] }}</div>
-                    <div class="vujade_service_subtitle">{{ __('fablab')['l1'] }}</div>
+                    <div class="vujade_service_title"> {{__('fablab')['l']}}</div>
+                    <div class="vujade_service_subtitle">{{__('fablab')['l1']}}</div>
                     <div class="vujade_service_text">
-                        <p> {{ __('fablab')['l2'] }} </p>
+                        <p> {{__('fablab')['l2']}} </p>
                         <div class="clear"></div>
                     </div>
                     {{-- <div class="vujade_morebutton"><a href="#">READ MORE</a></div> --}}
                 </div>
                 <div class="col-md-6 vujade_service two">
                     <div class="gallery-item">
-                        <img src="{{ asset('images/fablab.png') }}" style="width: 400px ; height: 400px"
-                            alt="gallery 2">
+                        <img src="{{asset('images/fablab.png')}}"  style="width: 400px ; height: 400px" alt="gallery 2">
                         {{-- <div class="vujade_service_frame"><img src="images/templatemo_serviceimg.png"
                                 alt="vujade_frame"></div> --}}
                         {{-- <div class="overlay">
@@ -159,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="row">
+            <div class="row">
                 <div class="col-md-6 vujade_service">
                     <div class="gallery-item">
                         <img src="images/service/3.jpg" alt="gallery 3">
@@ -183,7 +178,7 @@
                     </div>
                     <div class="vujade_morebutton"><a href="#">READ MORE</a></div>
                 </div>
-            </div> --}}
+            </div>
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6">
@@ -305,28 +300,19 @@
                 </div>
 
             </div>
-
-
-
-
-            <div class="container">
-                <h2>Our  Partners/ Our Clients</h2>
-                 <section class="customer-logos slider">
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-                 </section>
-              </div>
-
-
-
-              <br>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="vujade_separater">
+                        <span class="page">3</span>
+                    </div>
+                </div>
+            </div>
             <!-- promotion end -->
             <!-- work start -->
             <div id="vujade_about" class="row">
-                <div class="col-md-4 vujade_work"><img src="images/templatemo_workicon.png" alt="templatemo work">
-                </div>
+                <div class="col-md-4 vujade_work"><img src="images/templatemo_workicon.png"
+                        alt="templatemo work"></div>
                 <div class="col-md-8">
                     <div class="vujade_worktitle">ABOUT US</div>
                     <div class="vujade_sub_worktitle">SED NON MAURIS VITAE ERAT</div>
@@ -389,12 +375,9 @@
                 <div class="col-md-4 vujade_contactform">
                     <form action="{{ route('contact.store') }}" method="post">
                         @csrf
-                        <input type="text" required name="name" id="name" class="name"
-                            placeholder="NAME">
-                        <input type="email" required name="email" id="email" class="email"
-                            placeholder="EMAIL">
-                        <input type="text" required name="phone" id="phone" class="subject"
-                            placeholder="PHONE">
+                        <input type="text" required name="name" id="name" class="name" placeholder="NAME">
+                        <input type="email" required name="email" id="email" class="email" placeholder="EMAIL">
+                        <input type="text" required name="phone" id="phone" class="subject" placeholder="PHONE">
                         <textarea required name="message" class="message" placeholder="MESSAGE ... " id="message"></textarea>
                         <div class="clear"></div>
                         <button type="submit" class="btn btn-primary">{{ __('Send') }}</button>
