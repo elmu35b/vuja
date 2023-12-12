@@ -61,14 +61,14 @@
                 </div>
                 <!-- /.container-fluid -->
             </nav>
-            <div class="vujade_socialmedia">
+            {{-- <div class="vujade_socialmedia">
                 <div class="vujade_social"><a href="#"><img src="images/facebook.png"
                             alt="templatemo facebook"></a></div>
                 <div class="vujade_social"><a href="#"><img src="images/twitter.png" alt="templatemo twitter"></a>
                 </div>
                 <div class="vujade_social"><a href="#"><img src="images/googleplus.png"
                             alt="templatemo googleplus"></a></div>
-            </div>
+            </div> --}}
         </div>
         <div class="clear"></div>
         <div class="container vujade_wrapper">
@@ -315,7 +315,7 @@
                             <img src="{{ asset('images/turn.png') }}">
                         </a>
                     </div>
-{{--
+                    {{--
                     <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg">
                     </div>
                     <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg">
@@ -404,7 +404,7 @@
                             placeholder="PHONE">
                         <textarea required name="message" class="message" placeholder="MESSAGE ... " id="message"></textarea>
                         <div class="clear"></div>
-                        <button type="submit" class="btn btn-primary">{{ __('Send') }}</button>
+                        <button type="submit" class="btn btn-primary" style="color: white">{{ __('Send') }}</button>
                     </form>
                 </div>
                 <div class="col-md-8">
