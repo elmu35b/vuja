@@ -356,7 +356,7 @@
                 <div class="col-md-6"></div>
                 <div class="col-md-6">
                     <div class="vujade_separater">
-                        <span class="page">4</span>
+                        <span class="page">3</span>
                     </div>
                 </div>
             </div>
