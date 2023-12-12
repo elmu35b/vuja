@@ -20,11 +20,11 @@
     <link rel="stylesheet" href="{{ asset('css/partners.css') }}">
 
     <!-- JavaScripts -->
-    <script src="{{asset("js/jquery-1.11.1.min.js")}}"></script> <!-- lightbox -->
-    <script src="{{asset("js/templatemo_custom.js")}}"></script> <!-- lightbox -->
-    <script src="{{asset("js/jquery.lightbox.js")}}"></script>
-    <script src="{{asset("js/bootstrap-collapse.js")}}"></script>
-    <script src="{{asset('js/partners.js')}}"></script>
+    <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script> <!-- lightbox -->
+    <script src="{{ asset('js/templatemo_custom.js') }}"></script> <!-- lightbox -->
+    <script src="{{ asset('js/jquery.lightbox.js') }}"></script>
+    <script src="{{ asset('js/bootstrap-collapse.js') }}"></script>
+    <script src="{{ asset('js/partners.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
     <!-- JavaScripts -->
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-6 vujade_service">
                     <div class="gallery-item">
-                        <img src="{{asset('images/xo.jpg')}}" alt="gallery 1">
+                        <img src="{{ asset('images/xo.jpg') }}" alt="gallery 1">
                         {{-- <div class="vujade_service_frame">
                             <img src="images/templatemo_serviceimg.png" alt="vujade_frame">
                         </div> --}}
@@ -147,8 +147,7 @@
                 </div>
                 <div class="col-md-6 vujade_service two">
                     <div class="gallery-item">
-                        <img src="{{ asset('images/fablab.png') }}" style="width: 400px ; height: 400px"
-                            alt="gallery 2">
+                        <img src="{{ asset('images/fab_academy.png') }}" {{-- style="width: 400px ; height: 400px" --}} alt="gallery 2">
                         {{-- <div class="vujade_service_frame"><img src="images/templatemo_serviceimg.png"
                                 alt="vujade_frame"></div> --}}
                         {{-- <div class="overlay">
@@ -310,21 +309,29 @@
 
 
             <div class="container">
-                <h2>Our  Partners/ Our Clients</h2>
-                 <section class="customer-logos slider">
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-                    <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-                 </section>
-              </div>
+                <h2>Our Products</h2>
+                <section class="customer-logos slider">
+                    <div class="slide"> <a href="https://turn-sa.net" target="_blank">
+                            <img src="{{ asset('images/turn.png') }}">
+                        </a>
+                    </div>
+{{--
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg">
+                    </div>
+                    <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg">
+                    </div>
+                    <div class="slide"><img
+                            src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
+                    </div> --}}
+                </section>
+            </div>
 
 
 
-              <br>
+            <br>
             <!-- promotion end -->
             <!-- work start -->
-            <div id="vujade_about" class="row">
+            {{-- <div id="vujade_about" class="row">
                 <div class="col-md-4 vujade_work"><img src="images/templatemo_workicon.png" alt="templatemo work">
                 </div>
                 <div class="col-md-8">
@@ -344,7 +351,7 @@
                         <li>Class aptent taciti sociosqu ad</li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6">
