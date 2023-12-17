@@ -316,6 +316,10 @@
                             <img src="{{ asset('images/turn.png') }}">
                         </a>
                     </div>
+                    <div class="slide"> <a href="https://cropsense.xyz" target="_blank">
+                            <img src="{{ asset('images/cropsense.png') }}">
+                        </a>
+                    </div>
                     {{--
                     <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg">
                     </div>
