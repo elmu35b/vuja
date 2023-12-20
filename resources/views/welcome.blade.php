@@ -6,7 +6,7 @@
     http://www.templatemo.com/preview/vujade_430_robotic
     -->
     <title>VUJADE</title>
-    <link rel="icon" type="image/x-icon" href="{{asset('images/favicon.ico')}}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta charset="utf-8">
@@ -53,7 +53,7 @@
                                 <li><a class="menu first" href="#vujade_home"><span>HOME</span></a></li>
                                 <li><a class="menu" href="#vujade_service"><span>ABOUT US</span></a></li>
                                 <li><a class="menu" href="#vujade_services"><span>SERVICES</span></a></li>
-                                <li><a class="menu" href="#vujade_about"><span>ABOUT</span></a></li>
+                                <li><a class="menu" href="#vujade_products"><span>PRODUCTS</span></a></li>
                                 <li><a class="menu" href="#vujade_contact"><span>CONTACT</span></a></li>
                             </ul>
                         </div>
@@ -72,7 +72,7 @@
             </div> --}}
         </div>
         <div class="clear"></div>
-        <div class="container vujade_wrapper">
+        <div class="container vujade_wrapper" id="vujade_home">
             <!-- home start -->
             <div class="row">
                 <div class="col-sm-6">
@@ -309,7 +309,7 @@
 
 
 
-            <div class="container">
+            <div class="container" id="vujade_products" >
                 <h2>Our Products</h2>
                 <section class="customer-logos slider">
                     <div class="slide"> <a href="https://turn-sa.net" target="_blank">
@@ -318,6 +318,15 @@
                     </div>
                     <div class="slide"> <a href="https://cropsense.xyz" target="_blank">
                             <img src="{{ asset('images/cropsense.png') }}">
+                        </a>
+                    </div>
+
+                    <div class="slide"> <a href="https://doorstepview.com" target="_blank">
+                            <img src="{{ asset('images/doorstep.png') }}">
+                        </a>
+                    </div>
+                    <div class="slide"> <a href="https://edu.vujadesa.com" target="_blank">
+                            <img src="{{ asset('images/edu.png') }}">
                         </a>
                     </div>
                     {{--
@@ -409,7 +418,8 @@
                             placeholder="PHONE">
                         <textarea required name="message" class="message" placeholder="MESSAGE ... " id="message"></textarea>
                         <div class="clear"></div>
-                        <button type="submit" class="btn btn-primary" style="color: white">{{ __('Send') }}</button>
+                        <button type="submit" class="btn btn-primary"
+                            style="color: white">{{ __('Send') }}</button>
                     </form>
                 </div>
                 <div class="col-md-8">
