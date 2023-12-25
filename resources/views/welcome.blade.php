@@ -317,16 +317,16 @@
                         </a>
                     </div>
                     <div class="slide"> <a href="https://cropsense.xyz" target="_blank">
-                            <img src="{{ asset('images/cropsense.png') }}">
+                            <img src="{{ asset('images/cropsense-w.png') }}">
                         </a>
                     </div>
 
                     <div class="slide"> <a href="https://doorstepview.com" target="_blank">
-                            <img src="{{ asset('images/doorstep.png') }}">
+                            <img src="{{ asset('images/doorstep-w.png') }}">
                         </a>
                     </div>
                     <div class="slide"> <a href="https://edu.vujadesa.com" target="_blank">
-                            <img src="{{ asset('images/edu.png') }}">
+                            <img src="{{ asset('images/edu-w2.png') }}">
                         </a>
                     </div>
                     {{--
